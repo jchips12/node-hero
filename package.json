@@ -1,0 +1,23 @@
+{
+  "name": "node-hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "webpack": "^3.4.1"
+  }
+}
